@@ -1,6 +1,7 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 
+// Url ocultada para upload publico, tendo em vista que notas fiscais contém informações sensíveis 
 const url = 'https://www.sefaz.mt.gov.br/nfce/consultanfce?p=';
 
 axios.get(url)
